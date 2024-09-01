@@ -8,7 +8,7 @@ It's a work in progress, and I will post it in this repository. The idea is simp
 Features i am working on:
 
 - Ability to select workflow(s)
-- Ability to edit nodes of workflows
+- Ability to edit nodes of selected Workflow.
 - Ability to Queue/Interrupt
 - Ability to Make It Multi User / Single User 
 
