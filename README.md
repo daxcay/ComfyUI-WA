@@ -13,3 +13,6 @@ Features i am working on:
 - Ability to Make It Multi User / Single User 
 
 You could star this repository for following future updates.
+
+Follow me free on patreon
+https://www.patreon.com/daxtoncaylor
