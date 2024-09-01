@@ -12,4 +12,4 @@ Features i am working on:
 - Ability to Queue/Interrupt
 - Ability to Make It Multi User / Single User 
 
-- You could star this repository for following future updates.
+You could star this repository for following future updates.
