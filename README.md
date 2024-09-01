@@ -16,3 +16,5 @@ You could star this repository for following future updates.
 
 Follow me free on patreon
 https://www.patreon.com/daxtoncaylor
+
+Follow me on my discord server: https://discord.com/invite/Z44Zjpurjp
