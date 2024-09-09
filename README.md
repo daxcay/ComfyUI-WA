@@ -92,7 +92,7 @@ From `ComfyUI/WhatsApp` folder open `whatsapp.json`
 To upload a workflow to be used in in whatsapp use the `workflow` button in whatsapp dashboard.
 
 >[!IMPORTANT]
-> #### **Attach `WA-ImageSave` before saving the workflow in api format**
+> #### **Attach `WA-ImageSaver` Node before saving the workflow in api format**
 
 ![image](https://github.com/user-attachments/assets/42a54f56-8dcc-4831-9d20-1c24ede24b46)
 
