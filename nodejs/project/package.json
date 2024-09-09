@@ -1,0 +1,16 @@
+{
+    "name": "comfy_ui_whatsapp",
+    "version": "1.0.0",
+    "description": "This web app lets you connect comfyui with whatsapp",
+    "main": "app.js",
+    "scripts": {
+        "production": "node app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.19.2",
+        "qrcode": "^1.5.4",
+        "whatsapp-web.js": "^1.25.0"
+    }
+}

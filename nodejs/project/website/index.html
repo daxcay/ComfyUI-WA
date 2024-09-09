@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comfy-WA</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <button id="connection" class="item active">Connection</button>
+            <button id="models" class="item">WorkFlows</button>
+            <button id="help" class="item">Help</button>
+        </div>
+        <div class="screen">
+            <div data-id="connection" data-screen="1">
+                <div class="qrcode"></div>
+                <div class="qrloading"><span class="loader"></span></div>
+            </div>
+            <div data-id="models" data-screen="1">
+                <div id="drop-zone">Drop WorkFlow files here (API Version)</div>
+                <div class="table-zone">
+                    <table id="models-table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Date Created</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>    
+                </div>
+            </div>
+            <div data-id="help" data-screen="1">
+                <p>To log out, first stop ComfyUI and delete the user folder from the <i>ComfyUI/WhatsApp</i> directory. Then, restart ComfyUI, log out from the linked device in WhatsApp, and re-link the device.</p>
+                <p>Repository: <a href="https://github.com/daxcay/ComfyUI-WA" target="_blank">GitHub</a> </p>
+                <p>Discord Server: <a href="https://discord.com/invite/Z44Zjpurjp" target="_blank">Discord</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-wa"
+description = "Comfy UI in WhatsApp"
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/daxcay/ComfyUI-WA"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "daxcay"
+DisplayName = "ComfyUI-WA"
+Icon = "https://raw.githubusercontent.com/daxcay/ComfyUI-NODEJS/main/web/assets/img/logo.gif"
