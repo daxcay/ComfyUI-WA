@@ -27,6 +27,8 @@ This project enables the use of ComfyUI Workflows in WhatsApp.
 
 ![WhatsApp](https://github.com/user-attachments/assets/a1f9faa8-4704-4928-8a75-fb7ada4956ad)
 
+Video Tutorial: Coming Soon!
+
 <br />
 
 > [!IMPORTANT]
