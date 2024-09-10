@@ -57,8 +57,8 @@ Video Tutorial: **Coming Soon!**
 
 <br>
 
-# Node Installation
-  - In case you have error in automated node installation using comfyui
+# NodeJS Installation
+  - In case you have error in automated nodejs installation.
   - https://nodejs.org/en/download/prebuilt-installer
   - Use above link to manually install nodejs.
 
