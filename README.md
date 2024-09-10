@@ -162,6 +162,8 @@ Writing **/c** in whatsapp will also provide the list of all commands:
 
 ![image](https://github.com/user-attachments/assets/09c8a252-2fc0-41be-84af-1fac38e74b36)
 
+**Multi User** mode allows some other person to use ComfyUI by directly messaging you!.
+
 # Contact
 
 ### Daxton Caylor - ComfyUI Node Developer 
