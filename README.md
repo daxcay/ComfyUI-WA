@@ -21,18 +21,20 @@
   
 </div>
 
+<br>
+
 # About The Project
 
 This project enables the use of ComfyUI Workflows in WhatsApp.
 
-![WhatsApp](https://github.com/user-attachments/assets/a1f9faa8-4704-4928-8a75-fb7ada4956ad)
-
-Video Tutorial: Coming Soon!
+Video Tutorial: **Coming Soon!**
 
 <br />
 
 > [!IMPORTANT]
 > To log out, first stop ComfyUI and delete the `user` folder from the ComfyUI/WhatsApp directory. Then, restart ComfyUI, and log out from the linked device in WhatsApp.
+
+<br>
 
 # Installation
 
@@ -47,17 +49,20 @@ Video Tutorial: Coming Soon!
   - ### Automatic Method with [Comfy Manager](https://github.com/ltdrdata/ComfyUI-Manager)
     - Inside ComfyUI > Click the Manager Button on the side.
     - Click `Custom Nodes Manager` and search for `ComfyUI-WA`, then install this node.
-
-  - ### Node Installation
-    - Install lateset version of node js.
-    - https://nodejs.org/en/download/package-manager
-    - for `non-windows` users.  
   
-  <br>
+<br>
   
   >[!IMPORTANT]
   > #### **Restart ComfyUI and Stop ComfyUI before proceeding to next step**
 
+<br>
+
+# Node Installation
+  - In case you have error in automated node installation using comfyui
+  - https://nodejs.org/en/download/prebuilt-installer
+  - Use above link to manually install nodejs.
+
+<br>
 
 # Setup
 
@@ -84,6 +89,8 @@ From `ComfyUI/WhatsApp` folder open `whatsapp.json`
 >[!IMPORTANT]
 > #### **Start ComfyUI before proceeding to next step**
 
+<br>
+
 ## Device Link
 
 >[!IMPORTANT]
@@ -91,12 +98,16 @@ From `ComfyUI/WhatsApp` folder open `whatsapp.json`
 
 ![download](https://github.com/user-attachments/assets/2a7b080c-8e31-4bc8-b571-f8604dcc202b)
 
+<br>
+
 ## Enable Dev Mode
 
 >[!IMPORTANT]
 > #### **Enable dev mode and save workflow in `api` format to make it compatible.**
 
 ![download (1)](https://github.com/user-attachments/assets/15d6fda5-86af-4514-9884-32e7bb4cde84)
+
+<br>
 
 ## Uploading WorkFlow
 
@@ -111,6 +122,7 @@ Now upload it in workflow section
 
 ![image](https://github.com/user-attachments/assets/10d7a0e6-5279-4d4e-a580-2b1235229a78)
 
+<br>
 
 # WhatsApp Commands
 
@@ -164,6 +176,8 @@ Writing **/c** in whatsapp will also provide the list of all commands:
 
 **Multi User** mode allows some other person to use ComfyUI by directly messaging you!.
 
+<br>
+
 # Contact
 
 ### Daxton Caylor - ComfyUI Node Developer 
@@ -176,11 +190,12 @@ Writing **/c** in whatsapp will also provide the list of all commands:
      - **Patreon**: https://patreon.com/daxtoncaylor
      - **Buy me a coffee**: https://buymeacoffee.com/daxtoncaylor
 
+<br>
 
 # Disclaimer
 
 This project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with WhatsApp or any of its subsidiaries or its affiliates. The official WhatsApp website can be found at whatsapp.com. "WhatsApp" as well as related names, marks, emblems and images are registered trademarks of their respective owners. Also it is not guaranteed you will not be blocked by using this method. WhatsApp does not allow bots or unofficial clients on their platform, so this shouldn't be considered totally safe.
 
-I have used `NodeJS` and 'Python` combined to make this project the library, I am using the following library in nodejs to enable whatsapp functionality. 
+I have used `NodeJS` and `Python` combined to make this project the library, I am using the following library in nodejs to enable whatsapp functionality. 
 
 https://github.com/pedroslopez/whatsapp-web.js
