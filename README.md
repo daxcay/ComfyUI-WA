@@ -61,6 +61,15 @@ Video Tutorial: Coming Soon!
 
 # Setup
 
+### Location of WhatsApp folder
+
+#### ComfyUI Folder
+  - `Drive:/ComfyUI_windows_portable/WhatsApp`
+
+#### Stable Matrix
+   -  **Full Version**: `Drive:/StabilityMatrix/Packages/ComfyUI/WhatsApp`
+   -  **Portable Version**: `Drive:/StabilityMatrix/Data/Packages/ComfyUI/WhatsApp`
+
 From `ComfyUI/WhatsApp` folder open `whatsapp.json`
 
 ![image](https://github.com/user-attachments/assets/bf244483-690a-4cb3-9e1b-5016cc78c13e)
