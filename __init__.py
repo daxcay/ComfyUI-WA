@@ -22,7 +22,7 @@
 @author: Daxton Caylor
 @title: ComfyUI-WA
 @nickname: ComfyUI-WA
-@description: This node enables someone to run any nodejs application alongside comfyui.
+@description: This node enables someone to run comfyui in whatsapp.
 """
 
 import os, platform, json
