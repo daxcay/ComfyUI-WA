@@ -6,7 +6,7 @@
     <img src="https://github.com/user-attachments/assets/117eab82-ef7a-4199-9a27-68c75ed25861" width="256px" height="128px">
   </a>
 
-  <h3 align="center">WhatsApp in ComfyUI</h3>
+  <h3 align="center">Comfy UI in WhatsApp.</h3>
 
   <p align="center">
     <a href="https://github.com/daxcay/ComfyUI-WA/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
