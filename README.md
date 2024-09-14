@@ -51,6 +51,10 @@ Video Tutorial: **Coming Soon!**
     - Click `Custom Nodes Manager` and search for `ComfyUI-WA`, then install this node.
   
 <br>
+
+  > [!CAUTION]
+  > Update to nodejs version v20.17.0 if you already have it. https://nodejs.org/dist/v20.17.0/node-v20.17.0-x64.msi
+
   
   >[!IMPORTANT]
   > #### **Restart ComfyUI and Stop ComfyUI before proceeding to next step**
