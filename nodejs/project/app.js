@@ -63,6 +63,7 @@ function readJsonFile(filePath) {
 }
 
 function addDirectories() {
+
     CONFIG.BROWSER_DIRECTORY = path.join(CONFIG.MAIN_DIRECTORY, 'user')
     CONFIG.MODELS_DIRECTORY = path.join(CONFIG.MAIN_DIRECTORY, 'workflows')
     CONFIG.TEMP_DIRECTORY = path.join(CONFIG.MAIN_DIRECTORY, 'temp')
@@ -74,6 +75,7 @@ function addDirectories() {
     CONFIG.ADMIN = `${WA_CONFIG.phone_code}${WA_CONFIG.phone}@c.us`
 
     CONFIG.CHROME = WA_CONFIG.chrome
+    CONFIG.API_URL = WA_CONFIG.comfy_url;
 
 }
 

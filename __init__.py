@@ -48,17 +48,21 @@ if NODE_JS_ACTIVE:
 
     if not os.path.exists(DATA_FOLDER):
         os.makedirs(DATA_FOLDER)
+    
+    config_data = {
+        "phone_code": "xx",
+        "phone": "xxxxxxxxxx",
+        "mode": "1",
+        "chrome": "",
+        "comfy_url": "http://127.0.0.1:8188"
+    }
 
     if not os.path.exists(CONFIG_FILE):
         with open(CONFIG_FILE, 'w') as f:
-            config_data = {
-                "phone_code": "xx",
-                "phone": "xxxxxxxxxx",
-                "mode": "1",
-                "chrome": ""
-            }
             json.dump(config_data, f, indent=4)
-    
+    else: 
+        update_config(CONFIG_FILE, config_data)
+
     updates = {
         "scripts" : {
             "production": f"node app.js --pd={PD}"

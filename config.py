@@ -48,3 +48,30 @@ def edit_package_json(file_path, updates):
         json.dump(package_data, file, indent=4)
 
     print(f"[COMFYUI_WA] --> Updated {file_path} successfully.")
+
+
+def update_config(config_file, default_config):
+    # If the config file doesn't exist, create it with the default values
+    if not os.path.exists(config_file):
+        with open(config_file, 'w') as f:
+            json.dump(default_config, f, indent=4)
+        print(f"Config file created with default settings.")
+    else:
+        # Load the existing config
+        with open(config_file, 'r') as f:
+            config_data = json.load(f)
+        
+        # Check for missing keys and update them
+        updated = False
+        for key, value in default_config.items():
+            if key not in config_data:
+                config_data[key] = value
+                updated = True
+        
+        # If updates are made, rewrite the config file
+        if updated:
+            with open(config_file, 'w') as f:
+                json.dump(config_data, f, indent=4)
+            print(f"Config file updated with missing keys.")
+        else:
+            print(f"No updates needed, config file is up to date.")

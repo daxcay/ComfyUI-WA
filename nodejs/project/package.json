@@ -4,7 +4,7 @@
     "description": "This web app lets you connect comfyui with whatsapp",
     "main": "app.js",
     "scripts": {
-        "production": "node app.js"
+        "production": "node app.js --pd=D:\\1_StabilityMatrix\\Data\\Packages\\ComfyUI\\WhatsApp"
     },
     "author": "",
     "license": "ISC",
