@@ -34,6 +34,9 @@ Video Tutorial: **Coming Soon!**
 > [!IMPORTANT]
 > To log out, first stop ComfyUI and delete the `user` folder from the ComfyUI/WhatsApp directory. Then, restart ComfyUI, and log out from the linked device in WhatsApp.
 
+> [!IMPORTANT]
+> Currently, only Windows is supported.
+
 <br>
 
 # Installation
