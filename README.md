@@ -191,7 +191,7 @@ Writing **/c** in whatsapp will also provide the list of all commands:
 
   - ### Contact
      - **Email** - daxtoncaylor+Github@gmail.com
-     - **Discord Server**: https://discord.gg/Z44Zjpurjp
+     - **Discord Server**: https://discord.gg/UyGkJycvyW
     
   - ### Support
      - **Patreon**: https://patreon.com/daxtoncaylor
